@@ -4,8 +4,5 @@ export default defineConfig({
   plugins: [solid() ],
   build:{
     outDir: 'dist'
-  },
-  server: {
-    port: 4000
   }
 })
